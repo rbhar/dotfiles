@@ -1,0 +1,6 @@
+Host *
+    UseKeychain yes
+    AddKeysToAgent yes
+    TCPKeepAlive no
+    ServerAliveInterval 20
+    ServerAliveCountMax 2

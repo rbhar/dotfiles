@@ -1,0 +1,9 @@
+*.sw[a-p]
+.DS_Store
+._*
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.vscode
+node_modules
