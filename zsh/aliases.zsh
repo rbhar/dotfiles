@@ -1,8 +1,8 @@
 alias reload='source ~/.zshrc'
 
-alias ls='ls -G'
-alias ll='ls -lGh'
-alias la='ls -laGh'
+alias ls='ls -FG'
+alias ll='ls -FGl'
+alias la='ls -FGall'
 
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -14,7 +14,7 @@ alias c='code'
 # Git
 alias g='git'
 
-# tmux
+# Tmux
 alias tm='tmux'
 alias tml='tmux list-sessions'
 alias tma='tmux attach -t'
@@ -23,11 +23,11 @@ alias tmk='tmux kill-session -a'
 # Docker
 alias d='docker'
 
-# Homebrew
-alias brewu='brew update && brew upgrade && brew autoremove && brew cleanup --prune=all'
-
 # Dotfiles
 alias dot='cd ~/dotfiles'
+
+# Homebrew
+alias brewu='brew update && brew upgrade && brew autoremove && brew cleanup --prune=all'
 
 # Clear screen
 alias cl='clear'

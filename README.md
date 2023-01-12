@@ -1,16 +1,12 @@
 # Dotfiles
 
-My dotfiles.
-
-## Installation
-
-Clone the repository:
+## 1. Clone repository
 
 ```sh
 git clone https://github.com/rbhar/dotfiles ~/dotfiles
 ```
 
-Invoke the `Makefile`:
+## 2. [Invoke Makefile](Makefile)
 
 ```sh
 cd ~/dotfiles

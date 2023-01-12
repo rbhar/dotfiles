@@ -1,6 +1,6 @@
 *.sw[a-p]
-.DS_Store
 ._*
+.DS_Store
 .fseventsd
 .Spotlight-V100
 .TemporaryItems

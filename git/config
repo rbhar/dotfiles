@@ -1,6 +1,7 @@
 [user]
 	name = Rahul
 	email = 54421617+rbhar@users.noreply.github.com
+	signingkey = BB16961CDFCC57A0
 [alias]
 	s = status -s
 	d = diff
@@ -27,6 +28,8 @@
 	aliases = !git config -l | grep alias | cut -c 7-
 [color]
 	ui = true
+[commit]
+	gpgsign = true
 [core]
 	editor = vim
 	excludesfile = ~/dotfiles/git/ignore

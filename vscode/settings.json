@@ -35,6 +35,5 @@
   "extensions.ignoreRecommendations": true,
   "window.commandCenter": true,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "always"
 }
