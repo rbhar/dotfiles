@@ -1,0 +1,40 @@
+{
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'FiraCode-Retina'",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 60,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.rulers": [120],
+  "editor.tabSize": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.fontSize": 13,
+  "files.autoSave": "onFocusChange",
+
+  // Whitespace
+  "editor.renderWhitespace": "all",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Telemetry
+  "telemetry.telemetryLevel": "off",
+
+  "editor.cursorBlinking": "smooth",
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 0,
+  "editor.overviewRulerBorder": false,
+  "editor.roundedSelection": false,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "notebook.lineNumbers": "on",
+  "window.commandCenter": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.renderIndentGuides": "always"
+}

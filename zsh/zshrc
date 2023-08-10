@@ -1,0 +1,23 @@
+# Set zsh path
+ZSH=$HOME/dotfiles/zsh
+
+# History config
+export HISTFILE=~/.zsh_history
+export HISTSIZE=20
+export SAVEHIST=20
+
+# GnuPG
+export GPG_TTY=$(tty)
+
+# Android SDK
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Aliases
+source $ZSH/aliases.zsh
+
+# Pyenv config
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

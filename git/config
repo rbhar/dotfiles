@@ -1,0 +1,52 @@
+[user]
+	name = Rahul
+	email = 54421617+rbhar@users.noreply.github.com
+	signingkey = 50192DC4BB8FC1D7
+[alias]
+	a = add
+	aliases = !git config -l | grep alias | cut -c 7-
+	amend = commit --amend
+	b = branch
+	c = checkout
+	cl = clone
+	cm = commit
+	cp = cherry-pick
+	d = diff
+	dc = diff --cached
+	dn = diff --name-only
+	extend = commit --amend --no-edit
+	fush = push -f
+	l = log --graph --pretty=format:'%Cred%h%Creset%x20-%C(yellow)%d%Creset%x20%s%x20%Cgreen(%cr)%x20%C(bold blue)<%an>%Creset'
+	last = log -1 --stat
+	ll = log --pretty=fuller
+	pl = pull
+	ps = push
+	rb = rebase
+	s = status -s
+	sh = stash
+	uncommit = reset --soft HEAD~1
+	unstage = reset HEAD --
+[color]
+	ui = true
+[commit]
+	gpgsign = true
+[core]
+	editor = vim
+	excludesfile = ~/dotfiles/git/ignore
+	autocrlf = input
+[credential]
+	helper = osxkeychain
+[diff]
+	renames = true
+	compactionHeuristic = true
+	algorithm = minimal
+[fetch]
+	prune = true
+[init]
+	defaultBranch = main
+[log]
+	abbrevCommit = true
+[push]
+	default = simple
+[pull]
+	rebase = true
