@@ -35,6 +35,7 @@
   "extensions.ignoreRecommendations": true,
   "notebook.lineNumbers": "on",
   "window.commandCenter": true,
+  "workbench.activityBar.orientation": "vertical",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.renderIndentGuides": "always"
 }
