@@ -17,9 +17,10 @@ alias g='git'
 
 # Tmux
 alias tm='tmux'
-alias tml='tmux list-sessions'
 alias tma='tmux attach -t'
-alias tmk='tmux kill-session -a'
+alias tmk='tmux kill-session -t'
+alias tml='tmux list-sessions'
+alias tmn='tmux new -s'
 
 # Docker
 alias d='docker'
