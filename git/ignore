@@ -2,9 +2,10 @@
 ._*
 .DS_Store
 .fseventsd
-.idea
+.idea/
 .Spotlight-V100
 .TemporaryItems
 .Trashes
-.vscode
-node_modules
+.vscode/
+Icon?
+node_modules/
