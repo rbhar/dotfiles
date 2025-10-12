@@ -36,6 +36,7 @@
   "notebook.lineNumbers": "on",
   "window.commandCenter": true,
   "workbench.activityBar.orientation": "vertical",
+  "workbench.editorAssociations": { "*.svg": "default" },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.renderIndentGuides": "always"
 }
